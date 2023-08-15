@@ -1,0 +1,593 @@
+.First_vue {
+    height: 800px;
+    background-image: url('../img/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.Main {
+    height: 5300px;
+    background: #000013;
+}
+
+.First_vue-content {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.30) 80.73%);
+    height: 800px;
+    position: absolute;
+    width: 100%;
+}
+
+.splits {
+    margin-bottom: 174px;
+}
+
+
+
+
+/* Buttons css */
+.button-item button:hover {
+
+    background: #FFF;
+    color: #9056AE;
+    transition: 0.3s;
+}
+
+.button-item button {
+    border-radius: 5px;
+    background: #9056AE;
+    border-color: transparent;
+    width: 117px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-shadow: 0px 4px 18px 0px #FFF;
+    font-family: Turret Road;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+
+/* Navbar css */
+.nav {
+    justify-content: center;
+    padding-top: 49px;
+    align-items: center;
+}
+
+
+.nav1 {
+    margin-top: -15px;
+}
+
+.nav2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    margin-right: 200px;
+
+    margin-left: 300px;
+}
+
+
+    
+
+.nav-item {
+    color: rgba(255, 255, 255, 0.50);
+
+    font-family: Turret Road;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.trans-btn {
+    border-radius: 6px;
+    background: transparent;
+    
+    width: 117px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Turret Road;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+   
+    border-color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+
+.trans-btn:hover {
+    background-color: white;
+    color: #9056AE;
+    transition: 0.3s;
+    border-color: transparent;
+}
+
+.dropdown {
+    position: relative;
+  }
+  
+  .dropcont {
+    margin-top: 16px;
+    padding-top: 27px;
+    display: block;
+    position: absolute;
+    background-color: rgba(88, 121, 188, 0.3);
+    width: 170px;
+    border-radius: 10px;
+    height: 0;
+     overflow: hidden;   
+    transition: height 0.7s, opacity 0.7s, visibility 0.7s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .dropdown.active .dropcont,
+  .dropdown:hover .dropcont {
+    height: 110px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  
+ .dropdown.active > .nav-item {
+    color: white;
+ }
+
+.dropdown.active .nav-item svg,
+.dropdown:hover>.nav-item svg {
+    transform: rotate(180deg);
+    transition: 0.5s;
+   
+}
+
+
+
+
+
+.dropdown.active .nav-item svg path,
+.dropdown:hover .nav-item svg path
+ {
+    fill-opacity: 1;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+
+    color: white;
+    transition: 0.3s;
+}
+
+.dropcont .dropflech {
+    position: absolute;
+    top: -9px;
+    right: 0;
+    bottom: 0;
+    left: 130px;
+}
+
+
+
+.nav-cont li {
+    position: relative;
+    color: #FFF;
+    font-family: Turret Road;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    list-style-type: none;
+    margin-bottom: 20px;
+   
+}
+
+/*Animation Sections */
+.title_sect {
+    color: white;
+    text-align: center;
+    font-family: Turret Road;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    justify-content: center;
+    margin-bottom: 177px;
+}
+
+.sects {
+    margin-top: 30px;
+}
+
+.sec {
+    margin-bottom: 177px;
+    margin-left: 287;
+    height: auto;
+
+}
+
+.sec-button {
+    width: 160px;
+}
+
+.sec-button .button-item button {
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 160px;
+}
+
+.p1 {
+    color: #5879BC;
+    font-family: Turret Road;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.animate .p1 {
+    margin-top: 50px;
+}
+
+.p2 {
+    color: #E5E5E5;
+    font-family: Turret Road;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.sec .animate {
+    transition: 1s;
+    filter: blur(2px);
+}
+
+.sec1 .animate {
+    transform: translateX(-130%);
+}
+
+.sec3 .animate {
+    transform: translateX(-130%);
+}
+
+.sec1.show-animate .animate,
+.sec2.show-animate .animate,
+.sec3.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec2 .animate {
+    transform: translateX(150%);
+}
+
+
+
+.sec.show-animate .animate {
+    filter: blur(0);
+}
+
+.st11 {
+    right: -40px;
+}
+
+.st22 {
+
+    left: -50px;
+    margin-top: 1000px;
+}
+
+.st33 {
+    margin-top: 1500px;
+    right: -40px;
+}
+
+/* Topic after navbar */
+div .topic {
+    margin-top: 146px;
+    margin-left: 300px;
+}
+
+.topic {
+    color: #FFF;
+    font-family: Turret Road;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 851px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+
+
+
+/* sponsor bar*/
+.sponsorbar {
+    margin-bottom: 170px;
+}
+
+.sponsorbar .row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+.sponsorbar .row {
+    background: rgba(47, 57, 77, 0.35);
+ 
+    align-items: center;
+}
+
+.sponsorbar .row {
+    overflow: hidden;
+}
+
+.sponsor .spn1 {
+    animation: moveBar 12s linear infinite;
+    background-color: transparent;
+    transform: translateX(100%);
+    animation-delay: 6s;
+}
+.sponsor .spn2 {
+    animation: moveBar 12s linear infinite;
+    background-color: transparent;
+   
+    position: absolute;
+    
+}
+
+@keyframes moveBar {
+    0% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+}
+
+/*reasons section*/
+.reasons {
+    width: 165px;
+    height: 142px;
+    border-radius: 10px;
+    background: rgba(47, 57, 77, 0.80);
+    margin-right: 20px;
+    margin-bottom: 29px;
+
+}
+
+.res-title {
+    color: rgba(255, 255, 255, 0.84);
+    text-align: center;
+    font-family: Turret Road;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 31px;
+    margin-bottom: 29px;
+}
+
+.res-text {
+    color: rgba(229, 229, 229, 0.84);
+    font-family: Turret Road;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+    width: 582px;
+}
+
+.reason-logo-title {
+    color: rgba(255, 255, 255, 0.84);
+    text-align: center;
+    font-family: Turret Road;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.reason-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+
+}
+
+.reason-speech {
+    margin-right: 84px;
+}
+
+.reason-speech div {
+    float: left;
+}
+
+
+
+/*contacts*/
+.contact {
+    height: 760px;
+    background: #563865;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact div {
+    display: flex;
+
+}
+
+.contact-title {
+    margin-bottom: 41px;
+    margin-top: 233px;
+    width: 700px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Turret Road;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.contact-speech {
+    color: #E5E5E5;
+
+    text-align: center;
+    font-family: Turret Road;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 654px;
+    height: 76px;
+    flex-shrink: 0;
+    margin-bottom: 75px;
+}
+
+.st {
+    position: absolute;
+}
+
+.st1 {
+    right: -10px;
+    margin-top: 82px;
+}
+
+.st2 {
+    right: 70px;
+    margin-top: 318px;
+}
+
+.st3 {
+    right: -95px;
+    margin-top: 410px;
+}
+
+.st4 {
+    left: -73px;
+    margin-top: 184px;
+}
+
+.st5 {
+    left: 8px;
+    margin-top: 415px;
+
+}
+
+/*footer section*/
+.footer-titles {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Turret Road;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 61px;
+}
+
+.footer .row {
+    margin-bottom: 81px;
+}
+
+.footer-pages a {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Turret Road;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.footer-pages a:hover {
+    color: #b99bc9;
+    transition: 0.3s;
+}
+
+.footer-pages svg {
+    margin-right: 30px;
+}
+
+.footer-pages svg:hover>path {
+    fill: #b99bc9;
+    transition: 0.3s;
+}
+
+.footer-pages {
+    margin-bottom: 10px;
+}
+
+
+
+
+/*copyright section*/
+.copyright {
+    height: 89px;
+    border-radius: 10px;
+    background: rgba(47, 57, 77, 0.35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft {
+    color: #9A9A9A;
+    font-family: Turret Road;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sd {
+    color: #9A9A9A;
+    font-family: Turret Road;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* particles css*/
+#bg {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 800px;
+}
