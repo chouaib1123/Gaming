@@ -32,3 +32,21 @@ function handleScroll() {
 
 // Add the event listener for scrolling
 window.addEventListener('scroll', handleScroll);
+
+
+window.addEventListener('scroll', function() {
+
+    const navbar = document.querySelector('.navbar-container-flexible');
+    const firstsection = document.getElementById('s1');
+    const navbarHeight = navbar.offsetHeight;
+    const scrollPosition = window.scrollY;
+    
+    if (scrollPosition >= navbarHeight) {
+        navbar.classList.add('sticky');
+      
+        
+    } else {
+        navbar.classList.remove('sticky');
+        firstsection.style.paddingTop ="0px";
+    }
+});
