@@ -29,7 +29,8 @@ body{
 }
 .Main{
   background-color: #000013;
-  z-index: -1;
+  z-index: 0;
+  position: relative;
 }
 
 
@@ -39,6 +40,7 @@ body{
 }
 .sections{
     padding-top: 130px;
+
 }
 /*First_vue_css*/
 .First_vue{
@@ -183,7 +185,7 @@ a{
 .animated-sections{
     display: flex;
     gap: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .sec-text{
    display: flex;
@@ -195,9 +197,41 @@ a{
     max-width: 1980px;
      margin: 0 auto;
      position: relative;
+     overflow: hidden;
 }
 
-
+.st1{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    z-index: -1;
+}
+.st2{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    z-index: -1;
+}
+.st3{
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    z-index: -1;
+}
+.animate{
+    transform: translateX(-150%); 
+    opacity: 0;
+    transition: all 2s ease;
+}
+.animate2{
+    transform: translateX(150%);
+    opacity: 0;
+    transition:  all  2s ease;
+}
+.animate.translate-animation,.animate2.translate-animation{
+    transform: translateX(0%);
+    opacity: 1;
+}
 /*sponsor bar*/
 .sponsor{
     position: relative;
@@ -367,4 +401,8 @@ a{
 .footer-pages a:hover{
     color: var(--Heading-cl);
     
+}
+.footer-pages{
+    display: flex;
+    justify-content: space-between;
 }

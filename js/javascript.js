@@ -50,3 +50,34 @@ window.addEventListener('scroll', function() {
         firstsection.style.paddingTop ="0px";
     }
 });
+
+
+
+
+
+
+
+
+const sect = document.querySelectorAll('.animated-sections');
+
+function checkSections() {
+  sect.forEach((section, index) => {
+    const bounding = section.getBoundingClientRect();
+    if (bounding.top >= 0 && bounding.bottom <= window.innerHeight) {
+      section.classList.add('translate-animation');
+    } else {
+      section.classList.remove('translate-animation');
+    }
+  });
+}
+
+window.addEventListener('scroll', checkSections);
+window.addEventListener('resize', checkSections);
+checkSections();
+
+
+
+
+
+
+

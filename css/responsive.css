@@ -46,8 +46,12 @@
 
 }
 @media(max-width : 1350px){
+    .sticky .navbar{
+  
+        padding: 5px 287px ;
+    }
     .reason-card-logo img{
-        width: 70px;
+        width: 65px;
     }
     .topic {
         margin: 170px auto auto 68px;
@@ -85,8 +89,14 @@
  .contact-right-background img{
     width: 400px;
  }
+ .st img{
+    width: 250px;
+ }
 }
 @media(max-width : 1200px){
+    .sections {
+        padding-top: 110px;
+    }
     .reason-card-logo img{
         width: 60px;
     }
@@ -130,9 +140,18 @@
     padding: 200px 0;
    
 }
+.st img{
+    width: 200px;
+ }
 }
 
 @media(max-width : 1000px){
+    .footer-pages div a img{
+       width: 30px;
+    }
+    .sections {
+        padding-top: 90px;
+    }
     .reason-card-logo img{
         width: 50px;
     }
@@ -172,6 +191,10 @@
  .contact-right-background img{
     width: 200px;
  }
+
+ .st img{
+    width: 150px;
+ }
  .contact {
     padding: 100px 0;
    
@@ -189,6 +212,9 @@
 }
 
 @media(max-width : 850px){
+    .st img{
+        width: 100px;
+     }
     .reason-card-logo img{
         width: 40px;
     }
