@@ -46,6 +46,13 @@
 
 }
 @media(max-width : 1350px){
+    .reason-card-logo img{
+        width: 70px;
+    }
+    .topic {
+        margin: 170px auto auto 68px;
+        padding-bottom: 170px;
+    }
     :root{
     --fz-text: 20px;
     --fz-neutral: 22px;
@@ -80,6 +87,13 @@
  }
 }
 @media(max-width : 1200px){
+    .reason-card-logo img{
+        width: 60px;
+    }
+    .topic {
+        margin: 150px auto auto 68px;
+        padding-bottom: 150px;
+    }
     :root{
     --fz-text: 19px;
     --fz-neutral: 21px;
@@ -119,6 +133,13 @@
 }
 
 @media(max-width : 1000px){
+    .reason-card-logo img{
+        width: 50px;
+    }
+    .topic {
+        margin: 120px auto auto 68px;
+        padding-bottom: 120px;
+    }
     :root{
     --fz-text: 18px;
     --fz-neutral: 20px;
@@ -168,6 +189,9 @@
 }
 
 @media(max-width : 850px){
+    .reason-card-logo img{
+        width: 40px;
+    }
     :root{
     --fz-text: 16px;
     --fz-neutral: 18px;
