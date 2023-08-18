@@ -474,7 +474,7 @@ button{
 /*copyright*/
 .copyright{
     background-color: var(--card-cl);
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 .ft{
