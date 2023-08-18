@@ -17,7 +17,7 @@
    }
    .sticky .navbar{
   
-    padding: 20px 230px ;
+    padding: 10px 230px ;
 }
 }
 @media(max-width : 1500px){
@@ -34,7 +34,7 @@
    } 
    .sticky .navbar{
   
-    padding: 20px 180px ;
+    padding:10px 180px ;
 }
    .nav-logo img{
     width:  100px;
@@ -46,6 +46,24 @@
 
 }
 @media(max-width : 1350px){
+   .spn1,.spn2{
+      gap: 150px;
+   }
+   .intel{
+      width: 80px;
+   }
+   .Alien{
+      width: 280px;
+   }
+   .Corsair{
+      width: 50px;
+   }
+   .Nvidia{
+      width: 70px;
+   }
+   .AMD{
+      width: 50px;
+   }
     .sticky .navbar{
   
         padding: 5px 287px ;
@@ -69,7 +87,7 @@
    } 
    .sticky .navbar{
   
-    padding: 20px 150px ;
+    padding: 10px 150px ;
 }
    .nav-logo img{
     width:  80px;
@@ -94,6 +112,10 @@
  }
 }
 @media(max-width : 1200px){
+   
+   button{
+      padding: 5px 13px;
+  }
     .sections {
         padding-top: 110px;
     }
@@ -116,7 +138,7 @@
    } 
    .sticky .navbar{
   
-    padding: 20px 100px ;
+    padding: 10px 100px ;
 }
    .nav-logo img{
     width:  70px;
@@ -171,7 +193,7 @@
    } 
    .sticky .navbar{
   
-    padding: 20px 50px ;
+    padding: 10px 50px ;
 }
    .nav-logo img{
     width:  60px;
@@ -212,6 +234,27 @@
 }
 
 @media(max-width : 850px){
+   button{
+      padding: 5px 10px;
+  }
+   .spn1,.spn2{
+      gap: 100px;
+   }
+   .intel{
+      width: 60px;
+   }
+   .Alien{
+      width: 220px;
+   }
+   .Corsair{
+      width: 30px;
+   }
+   .Nvidia{
+      width: 50px;
+   }
+   .AMD{
+      width: 30px;
+   }
     .st img{
         width: 100px;
      }
@@ -230,7 +273,7 @@
    } 
    .sticky .navbar{
   
-    padding: 20px 20px ;
+    padding: 10px 20px ;
 }
    .nav-logo img{
     width:  50px;

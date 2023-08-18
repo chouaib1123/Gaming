@@ -1,39 +1,4 @@
-let dropdown = document.querySelector('.dropdown');
-const dropcont = document.querySelector('.dropcont');
-
-function show() {
-    dropdown.classList.toggle('active');
-}
-
-
-let sections = document.querySelectorAll('.sec');
-let sectionPositions = Array.from(sections).map(sec => {
-    const rect = sec.getBoundingClientRect();
-    return {
-        element: sec,
-        offsetTop: rect.top + window.pageYOffset,
-        offsetBottom: rect.bottom + window.pageYOffset
-    };
-});
-
-function handleScroll() {
-    const scrollPosition = window.scrollY + (window.innerHeight * 0.6);
-
-    sectionPositions.forEach(({ element, offsetTop, offsetBottom }) => {
-        const isVisible = scrollPosition >= offsetTop && scrollPosition < offsetBottom;
-
-        if (isVisible && !element.classList.contains('show-animate')) {
-            element.classList.add('show-animate');
-        } else if (!isVisible && element.classList.contains('show-animate')) {
-            element.classList.remove('show-animate');
-        }
-    });
-}
-
-// Add the event listener for scrolling
-window.addEventListener('scroll', handleScroll);
-
-
+//sticky navbar concept
 window.addEventListener('scroll', function() {
 
     const navbar = document.querySelector('.navbar-container-flexible');
@@ -43,7 +8,7 @@ window.addEventListener('scroll', function() {
     
     if (scrollPosition >= navbarHeight) {
         navbar.classList.add('sticky');
-      
+        firstsection.style.paddingTop ="80px";
         
     } else {
         navbar.classList.remove('sticky');
@@ -52,12 +17,7 @@ window.addEventListener('scroll', function() {
 });
 
 
-
-
-
-
-
-
+//sections aniimation
 const sect = document.querySelectorAll('.animated-sections');
 
 function checkSections() {
@@ -80,4 +40,24 @@ checkSections();
 
 
 
+
+
+//dropdown concept
+function dropdown_control(){
+    const dropdown = document.querySelector(".nav-items");
+    if(dropdown.classList.contains("dropable") ){
+        dropdown.classList.remove("dropable");
+    }
+    else{
+        dropdown.classList.add("dropable");
+    }
+    
+}
+function handleClickOutside(event) {
+    const dropdown = document.querySelector(".nav-items");
+    if (!dropdown.contains(event.target)) {
+        dropdown.classList.remove("dropable");
+    }
+}
+document.addEventListener("click", handleClickOutside);
 
