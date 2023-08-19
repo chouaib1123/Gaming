@@ -117,6 +117,9 @@ transition: all 0.5s ;
    opacity: 0;
    transition: all 1s;
   }
+  .sticky .nav-item-dropdown{
+    top: 200%;
+  }
   .nav-item-dropdown-content{
     display: flex;
     flex-direction: column;
