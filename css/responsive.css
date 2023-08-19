@@ -107,9 +107,7 @@
    .sec-image img{
     width: 400px;
  }
- .animated-section {
-    gap: 120px;
- }
+
  .contact-left-background img{
     width: 300px;
  }
@@ -152,9 +150,7 @@
    .nav-logo img{
     width:  70px;
    }
-   .nav-items{
-    gap: 10px;
-   }
+   
    .sec-image img{
     width: 350px;
  }
@@ -191,7 +187,7 @@
         width: 50px;
     }
     .topic {
-        margin: 120px auto auto ;
+        margin: 120px auto auto 70px;
         padding-bottom: 120px;
     }
     :root{
@@ -243,6 +239,34 @@
 }
 
 @media(max-width : 850px){
+   .Section-title {
+      margin-bottom:0;
+  }
+  
+   .reason-cards{
+      flex-direction: column;
+       margin: 80px auto;
+   }
+   .reason-card{
+      flex-direction: row;
+      text-align: start;
+      justify-content: center;
+      gap: 20px;
+      margin: 0 auto;
+   }
+   .reason-card div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+   }
+   .animated-sections {
+    gap: 30px;
+   }
+   .sec-text{
+      gap: 40px;
+   }
+  
    .sections {
       padding-top: 50px;
       padding-bottom: 50px;
@@ -318,24 +342,7 @@
 
 @media (max-width:720px){
 
-    
-  
-   .reason-cards{
-      flex-direction: column;
-   }
-   .reason-card{
-      flex-direction: row;
-      text-align: start;
-      justify-content: center;
-      gap: 20px;
-      margin: 0 auto;
-   }
-   .reason-card div{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-   }
+ 
 }
 @media (max-width:650px){
    :root{

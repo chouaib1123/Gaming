@@ -284,7 +284,7 @@ transition: all 0.5s ;
 }
 .animated-section{
     display: flex;
-    gap: 150px;
+    gap: 100px;
    
 }
 .animated-sections{
@@ -334,7 +334,7 @@ transition: all 0.5s ;
     transition:  all  1s ease;
 }
 .animate.translate-animation,.animate2.translate-animation{
-    transform: scale(1);
+    transform: scale(0.8);
     filter: blur(0);
 }
 /*sponsor bar*/
