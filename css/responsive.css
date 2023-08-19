@@ -297,9 +297,7 @@
     --fz-secondary-heading: 43px;
     --fz-primary-heading: 48px; 
     }
-   .section{
-    margin: 0 20px;
-   } 
+  
    .sticky .navbar{
   
     padding: 10px 20px ;
