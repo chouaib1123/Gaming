@@ -69,7 +69,7 @@ body{
 }
 .nav-items{
     display: flex;
-    gap: 50px;
+    gap: 40px;
   align-items: center;
 }
 a{
@@ -157,7 +157,7 @@ transition: all 0.5s ;
     margin-bottom: 75px;
 }
 .topic{
-    margin: 200px auto auto 60px;
+    margin: 200px auto auto 70px;
    padding-bottom: 200px;
 }
 
@@ -184,9 +184,37 @@ transition: all 0.5s ;
   
     padding: 10px 287px ;
 }
-button{
+.button{
     padding: 9px 16px;
 }
+.Phone-Button{
+    display: none;
+}
+.Phone-Button button{
+    background-color:transparent;
+   border: none;
+    width: 60px;
+}
+
+.barres{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: end;
+}
+.barre{
+    height: 2px;
+    width: 80%;
+    background-color: white;
+}
+.barre2{
+    width: 60%;
+}
+
+.dropdown-nav-item svg{
+    margin-left: 2px;
+}
+
 /*/  First_vue_css*/
 
 /*buttons css*/
