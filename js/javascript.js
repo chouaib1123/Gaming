@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
 
 
 //sections aniimation
-const sect = document.querySelectorAll('.animated-sections');
+const sect = document.querySelectorAll('.animated-section');
 
 function checkSections() {
   sect.forEach((section, index) => {

@@ -7,11 +7,12 @@
      --Heading-cl:#FFF;
      --text-cl:#F4F3F3;
 
-     --ff-primary:"Turret Road", sans-serif;
+     --ff-primary:"Turret Road";
     
-     --fw-light:400;
-     --fw-regular:700;
-     --fw-bold:800;
+     --fw-light:200;
+     --fw-regular:400;
+     --fw-bold:700;
+     --fw-extra-bold:800;
 
      --fz-text: 24px;
      --fz-neutral: 26px;
@@ -154,13 +155,13 @@ transition: all 0.5s ;
 .topic-speech{
     font-family: var(--ff-primary);
     font-size: var(--fz-primary-heading);
-    font-weight: var(--fw-regular);
+    font-weight: var(--fw-bold);
     color: var(--Heading-cl);
-    max-width: 1129px;
+    max-width: 90%;
     margin-bottom: 75px;
 }
 .topic{
-    margin: 200px auto auto 70px;
+    margin: 200px auto auto ;
    padding-bottom: 200px;
 }
 
@@ -188,8 +189,9 @@ transition: all 0.5s ;
     padding: 10px 287px ;
 }
 .button{
-    padding: 9px 16px;
+    padding: 9px 26px;
 }
+
 .Phone-Button{
     display: none;
 }
@@ -262,7 +264,7 @@ transition: all 0.5s ;
     font-family: var(--ff-primary);
     font-size: var(--fz-secondary-heading);
     color: var(--Heading-cl);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-extra-bold);
     
     text-align: center;
  
@@ -270,7 +272,7 @@ transition: all 0.5s ;
 .sec-title{
     font-family: var(--ff-primary);
     font-size: var(--fz-title);
-    font-weight: var(--fw-regular);
+    font-weight: var(--fw-bold);
     color: var(--secondary-heading-cl);
 
 }
@@ -280,10 +282,15 @@ transition: all 0.5s ;
     font-weight: var(--fw-light);
     color: var(--text-cl);
 }
-.animated-sections{
+.animated-section{
     display: flex;
     gap: 150px;
    
+}
+.animated-sections{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .sec-text{
    display: flex;
@@ -375,7 +382,7 @@ transition: all 0.5s ;
 .reason-title{
     font-family: var(--ff-primary);
     font-size: var(--fz-secondary-heading);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-extra-bold);
     color: var(--Heading-cl);
   
 }
@@ -389,7 +396,7 @@ transition: all 0.5s ;
 .reason-card-title{
    font-family: var(--ff-primary);
    font-size:var(--fz-title);
-   font-weight: var(--fw-regular);
+   font-weight: var(--fw-bold);
    color: var(--secondary-heading-cl);
 }
 .reason-card-speech{
@@ -419,7 +426,7 @@ transition: all 0.5s ;
 }
 .reason-cards{
     display: flex;
-    gap: 70px;
+    gap: 40px;
 }
 .reason-button{
     display: flex;
@@ -451,7 +458,7 @@ transition: all 0.5s ;
 }
 .contact-speech{
     font-family: var(--ff-primary);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-regular);
     font-size: var(--fz-text);
     color: var(--Heading-cl);
 
