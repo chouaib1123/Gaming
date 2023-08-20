@@ -485,3 +485,131 @@
    height: 60%;
   }
 }
+
+
+@media(max-width:550px){
+      :root{
+      --fz-text: 13px;
+      --fz-neutral: 15px;
+      --fz-title: 22px;
+      --fz-secondary-heading: 34px;
+      --fz-primary-heading: 38px; 
+      }
+      .sec-text {
+         gap: 10px;
+     }
+
+  .reason-card-logo img {
+   width: 30px;
+}
+.contact-left-background img {
+    width: 80px;
+}
+.contact-right-background img {
+   width: 100px;
+}
+.st img {
+   width: 80px;
+}
+.nav-logo img {
+   width: 40px;
+}
+.button {
+   padding: 5px 14px;
+}
+.contact-speech { 
+   margin-bottom: 20px;
+}
+.sections {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.animated-section {
+   gap: 20px;
+}
+.intel{
+   width: 30px;
+}
+.Alien{
+   width: 170px;
+}
+.Corsair{
+   width: 20px;
+}
+.Nvidia{
+   width: 30px;
+}
+.AMD{
+   width: 20px;
+}
+.animated-sections {
+   gap: 60px;
+}
+}
+
+@media(max-width:500px){
+   .sd{
+      font-size: var(--fz-text);
+   }
+   .footer-content{
+    
+   }
+   .footer-cont{
+      width: 120px;
+   }
+   .footer-content {
+     
+      flex-wrap: wrap;
+      justify-content: start  ;
+      gap: 20px;
+  }
+   .Section-title {
+      margin-bottom: 40px;
+  }
+   .reason-cards {
+      flex-direction: column;
+      margin: 40px auto;
+  }
+   .contact-left-background img {
+      width: 50px;
+  }
+   .topic {
+      margin: 100px auto auto 0;
+      padding-bottom: 120px;
+  }
+  :root{
+   --fz-text: 10px;
+   --fz-neutral: 18px;
+   --fz-title: 16px;
+   --fz-secondary-heading: 25px;
+   --fz-primary-heading: 30px; 
+   }
+   .animate.translate-animation,.animate2.translate-animation{
+      transform: scale(1);
+      
+  }
+  .st2{
+   top: 40%;
+  }
+  .st3{
+   bottom: 20%;
+  }
+  .sec-image img {
+   width: 120px;
+   height: 100%;
+}
+.contact-right-background img {
+   width: 70px;
+}
+.contact-title{
+   margin-bottom: 10px;
+}
+.contact-right-background {
+   
+    right:-5%;
+  
+}
+}
+@media(max-width:400px){
+  
+}

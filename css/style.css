@@ -416,7 +416,7 @@ transition: all 0.5s ;
 .reason-card{
     display: flex;
    
-    width: 450px;
+    max-width: 450px;
     flex-direction: column;
     align-items: center;
     text-align: center; 
@@ -485,8 +485,9 @@ transition: all 0.5s ;
 /*footer css*/
 .footer-content{
     display: flex;
-    justify-content: space-between;
+ justify-content: space-between;
 }
+
 .footer-titles{
     color: var(--text-cl);
     font-size: var(--fz-neutral);
