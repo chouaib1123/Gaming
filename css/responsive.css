@@ -383,8 +383,7 @@
       top: 30%;
       left: 35%;
       align-items: start;
-      transition: .4s all;
-      opacity: 0;
+
    
    }
   .nav-item a {
@@ -401,8 +400,9 @@
    justify-content: center;
    position: fixed;
    right: 0;
-   width: 30px;
+   width: 200px;
    height: 100%;
+   transform: translateX(80%);
    top: 0;
    background-color: #171C30;
    opacity: 0.8;
@@ -425,12 +425,9 @@
    position: relative;
   }
   .sideable{
-   width: 200px;
+   transform: translateX(0%);
   }
-  .sideable .nav-items{
-   opacity: 1;
-  
-  }
+ 
   .phone-effect-container{
    position: relative;
   }
