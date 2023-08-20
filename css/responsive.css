@@ -239,10 +239,19 @@
 }
 
 @media(max-width : 850px){
-   .Section-title {
-      margin-bottom:0;
-  }
   
+   .topic-speech {
+      margin-bottom: 40px;
+   }
+   .footer-titles {
+     margin: 40px auto 15px;
+   }
+   .footer-pages div a img {
+    width: 20px;
+}
+  .Section-title {
+    margin-bottom: 80px;
+}
    .reason-cards{
       flex-direction: column;
        margin: 80px auto;
@@ -264,7 +273,7 @@
     gap: 30px;
    }
    .sec-text{
-      gap: 40px;
+      gap: 30px;
    }
   
    .sections {
@@ -338,6 +347,7 @@
  .animated-section {
     gap:50px;
  }
+
 }
 
 @media (max-width:720px){
@@ -345,6 +355,13 @@
  
 }
 @media (max-width:650px){
+   .topic {
+      margin: 120px auto auto 50px;
+      padding-bottom: 120px;
+  }
+  .topic-speech{
+   max-width: 100%;
+  }
    :root{
       --fz-text: 14px;
       --fz-neutral: 16px;
@@ -355,4 +372,106 @@
       .sec-image img{
          width: 190px;
       }
+}
+
+
+@media(max-width:600px){
+   .nav-items{
+   
+      flex-direction: column;     
+      position: absolute;
+      top: 30%;
+      left: 25%;
+      align-items: start;
+      
+      opacity: 0;
+   
+   }
+  .nav-item a {
+  
+   color: var(--Heading-cl);
+  
+}
+   .Phone-Button{
+      display: block;
+   }
+  .phone-effect{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   right: 0;
+   width: 30px;
+   height: 100%;
+   top: 0;
+   background-color: #171C30;
+   opacity: 0.8;
+   z-index: 1111;
+   transition: 0.3s all;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+  }
+  .nav-drop-item button{
+  padding:0;
+  
+  }
+  .understicky{
+   padding-top: 0;
+  }
+  .phone-effect-button{
+   display: block;
+}
+  .sticky{
+   position: relative;
+  }
+  .phone-effect:hover{
+   width: 30%;
+  }
+  .phone-effect:hover .nav-items{
+   opacity: 1;
+   transition: .2s all;
+  }
+  .phone-effect-container{
+   position: relative;
+  }
+  .phone-effect-button{
+    position: absolute;
+    left:0;
+    
+    z-index: 99999999999;
+    background-color: #171C30;
+   
+  }
+  .phone-effect-button button{
+   background-color: transparent;
+   border: none;
+   width: 30px;
+   height: 60px;
+   padding: 0;
+  }
+  .barres{
+   display: flex;
+   width: 50%;
+   height: 50%;
+   gap: 5px;
+   margin-left: 10px;
+  }
+  .barre1{
+   height: 60%;
+   width: 2px;
+   background-color: white;
+   transition: 0.5s all;
+  }
+  .barre2{
+   height: 100%;
+   width: 2px;
+   background-color: white;
+   transition: 0.5s all;
+  }
+  .phone-effect:hover .barre1{
+   height: 100%;
+  }
+  .phone-effect:hover .barre2{
+   height: 60%;
+  }
 }

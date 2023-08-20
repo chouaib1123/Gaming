@@ -2,17 +2,17 @@
 window.addEventListener('scroll', function() {
 
     const navbar = document.querySelector('.navbar-container-flexible');
-    const firstsection = document.getElementById('s1');
+    const firstsection = document.querySelector('.topic');
     const navbarHeight = navbar.offsetHeight;
     const scrollPosition = window.scrollY;
     
     if (scrollPosition >= navbarHeight) {
         navbar.classList.add('sticky');
-        firstsection.style.paddingTop ="80px";
+        firstsection.classList.add('understicky');
         
     } else {
         navbar.classList.remove('sticky');
-        firstsection.style.paddingTop ="0px";
+        firstsection.classList.remove('understicky');
     }
 });
 
