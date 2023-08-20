@@ -390,7 +390,7 @@
   .nav-item a {
   
    color: var(--Heading-cl);
-  
+   font-size: 22px;
 }
    .Phone-Button{
       display: block;
@@ -478,8 +478,8 @@
   
   }
   .nav-item-dropdown-content {
-   padding: 0;
-   padding-top: 10px;
+   padding:20px 0 10px;
+ 
   }
   .sideable .barre2{
    height: 60%;
@@ -521,8 +521,8 @@
    margin-bottom: 20px;
 }
 .sections {
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
 .animated-section {
    gap: 20px;
@@ -548,6 +548,9 @@
 }
 
 @media(max-width:500px){
+   .button{
+      padding: 3px 8px;
+   }
    .sd{
       font-size: var(--fz-text);
    }
@@ -571,7 +574,7 @@
       margin: 40px auto;
   }
    .contact-left-background img {
-      width: 50px;
+      width: 70px;
   }
    .topic {
       margin: 100px auto auto 0;
@@ -579,7 +582,7 @@
   }
   :root{
    --fz-text: 10px;
-   --fz-neutral: 18px;
+   --fz-neutral: 12px;
    --fz-title: 16px;
    --fz-secondary-heading: 25px;
    --fz-primary-heading: 30px; 
@@ -599,7 +602,7 @@
    height: 100%;
 }
 .contact-right-background img {
-   width: 70px;
+   width: 100px;
 }
 .contact-title{
    margin-bottom: 10px;
