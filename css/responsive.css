@@ -567,7 +567,7 @@
    .footer-content {
      
       flex-wrap: wrap;
-      justify-content: start  ;
+      justify-content: center  ;
       gap: 20px;
   }
    .Section-title {
