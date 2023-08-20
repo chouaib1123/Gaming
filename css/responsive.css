@@ -424,10 +424,10 @@
   .sticky{
    position: relative;
   }
-  .phone-effect:hover{
+  .sideable{
    width: 30%;
   }
-  .phone-effect:hover .nav-items{
+  .sideable .nav-items{
    opacity: 1;
    transition: .2s all;
   }
@@ -468,10 +468,18 @@
    background-color: white;
    transition: 0.5s all;
   }
-  .phone-effect:hover .barre1{
+  .sideable .barre1{
    height: 100%;
   }
-  .phone-effect:hover .barre2{
+  .nav-item-dropdown{
+   position: relative;
+   background-color: transparent;
+   margin: 10px auto auto 20px;
+  }
+  .nav-item-dropdown-content {
+   padding: 0;
+  }
+  .sideable .barre2{
    height: 60%;
   }
 }

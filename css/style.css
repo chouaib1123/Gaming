@@ -112,9 +112,6 @@ a{
 .nav-item  a svg,.nav-item  a svg path{
 transition: all 0.5s ;
 }
-.nav-item  a:hover svg{
-  transform: rotate(180deg);
-}
 .nav-item  a:hover svg path{
    fill-opacity:1;
   }
@@ -140,10 +137,7 @@ transition: all 0.5s ;
     gap: 10px;
     padding: 30px 20px 50px;
   }
-  .nav-drop-item:hover .nav-item-dropdown{
-    max-height: 300px;
-    opacity: 1;
-  }
+ 
   .dropable .nav-item-dropdown{
     max-height: 300px;
     opacity: 1;

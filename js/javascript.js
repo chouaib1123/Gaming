@@ -61,3 +61,26 @@ function handleClickOutside(event) {
 }
 document.addEventListener("click", handleClickOutside);
 
+
+
+
+
+
+function Sidebare(){
+  const sidebarre = document.querySelector(".phone-effect");
+  if(sidebarre.classList.contains("sideable") ){
+    sidebarre.classList.remove("sideable");
+  }
+  else{
+    sidebarre.classList.add("sideable");
+  }
+  
+}
+function sidebarreClickOutside(event) {
+  const sidebarre = document.querySelector(".phone-effect");
+  if (!sidebarre.contains(event.target)) {
+    sidebarre.classList.remove("sideable");
+  }
+}
+document.addEventListener("click", sidebarreClickOutside);
+
