@@ -389,7 +389,7 @@
   .nav-item a {
   
    color: var(--Heading-cl);
-   font-size: 22px;
+   font-size: 20px;
 }
    .Phone-Button{
       display: block;
@@ -549,9 +549,7 @@
    .button{
       padding: 3px 8px;
    }
-   .sd{
-      font-size: var(--fz-text);
-   }
+   
    .footer-content{
     
    }
