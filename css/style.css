@@ -245,13 +245,12 @@ transition: all 0.5s ;
     font-family: var(--ff-primary);
     color: var(--Heading-cl);
      transition: 0.5s all;
+     border-radius: 5px; 
+     cursor: pointer;
 }
 .normal-button{
     background-color: var(--secondary-cl);
-    border: 1px solid var(--secondary-cl);
-    border-radius: 5px;
-    cursor: pointer;
-    
+    border: 1px solid var(--secondary-cl);      
 }
 .normal-button:hover{
     background-color: var(--Heading-cl);

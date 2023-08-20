@@ -376,6 +376,14 @@
 
 
 @media(max-width:600px){
+   .footer-pages {
+      display: flex;
+      justify-content: start;
+      gap: 5px;
+  }
+   .trans-button  , .normal-button {
+      border-radius: 2px;
+   }
    .nav-items{
    
       flex-direction: column;     
