@@ -126,7 +126,7 @@ transition: all 0.5s ;
     overflow: hidden;
    max-height: 0;
    opacity: 0;
-   transition: all 1s;
+   transition: all .7s;
   }
   .sticky .nav-item-dropdown{
     top: 200%;

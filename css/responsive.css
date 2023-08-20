@@ -383,7 +383,7 @@
       top: 30%;
       left: 35%;
       align-items: start;
-      
+      transition: .4s all;
       opacity: 0;
    
    }
@@ -407,7 +407,7 @@
    background-color: #171C30;
    opacity: 0.8;
    z-index: 1111;
-   transition: 0.3s all;
+   transition: 0.5s all;
    border-top-left-radius: 10px;
    border-bottom-left-radius: 10px;
   }
@@ -425,11 +425,11 @@
    position: relative;
   }
   .sideable{
-   width: 30%;
+   width: 200px;
   }
   .sideable .nav-items{
    opacity: 1;
-   transition: .2s all;
+  
   }
   .phone-effect-container{
    position: relative;
@@ -474,10 +474,12 @@
   .nav-item-dropdown{
    position: relative;
    background-color: transparent;
-   margin: 10px auto auto 20px;
+   margin: 0 auto auto 20px;
+  
   }
   .nav-item-dropdown-content {
    padding: 0;
+   padding-top: 10px;
   }
   .sideable .barre2{
    height: 60%;
