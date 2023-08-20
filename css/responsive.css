@@ -379,9 +379,7 @@
    .nav-items{
    
       flex-direction: column;     
-      position: absolute;
-      top: 30%;
-      left: 35%;
+     
       align-items: start;
 
    
