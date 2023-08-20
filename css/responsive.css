@@ -386,11 +386,15 @@
 
    
    }
+  
   .nav-item a {
   
    color: var(--Heading-cl);
    font-size: 20px;
 }
+ .dropdwon-item a{
+      font-size: 14px;
+   }
    .Phone-Button{
       display: block;
    }
@@ -550,9 +554,7 @@
       padding: 3px 8px;
    }
    
-   .footer-content{
-    
-   }
+
    .footer-cont{
       width: 120px;
    }
